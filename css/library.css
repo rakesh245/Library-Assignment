@@ -1,0 +1,106 @@
+﻿body {
+    font-family: 'Segoe UI',Georgia;
+    font-size: 16pt;
+    padding: 15px;
+}
+
+input[type=text] {
+    max-width: 150px;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+input[type=button] {
+    height: 32px;
+    padding: 1px 3px 1px 3px;
+    vertical-align: top;
+}
+
+.div-border {
+    border-right: solid black 1px;
+}
+
+.divTable {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.ul-tiles {
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+    .ul-tiles li {
+        cursor: pointer;
+        display: inline-block;
+        max-width: 200px;
+        width: 100%;
+        margin: 5px;
+        text-align: left;
+        height: 190px;
+        padding: 20px 7px 0px 52px;
+        vertical-align: middle;
+        margin: auto;
+    }
+
+    .ul-tiles li {
+        background: url('../images/book1.png');
+        background-size: 100% !important;
+        background-repeat: no-repeat !important;
+    }
+
+        .ul-tiles li.tile-select {
+            background: url('../images/book-hover.png');
+            cursor: not-allowed;
+        }
+
+        .ul-tiles li div.book-title {
+            width: 100%;
+            font-size: 9pt;
+            font-weight: bold;
+            height: 120px;
+        }
+
+        .ul-tiles li div.book-aut {
+            font-size: 9pt;
+            text-align: right;
+        }
+
+        .ul-tiles li label span {
+            font-size: 8pt;
+        }
+
+        .ul-tiles li:hover {
+            background: url('../images/book-hover.png');
+            color: #065677;
+        }
+
+.table {
+    max-width: 300px;
+}
+
+    .table thead tr td {
+        background: #C8EAFC;
+        font-weight: bold;
+    }
+
+.div-loader {
+    width: 100%;
+    height: 100%;
+    color: red;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 18pt;
+    padding-top: 25px;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/library.css" />
+    <script src="js/app.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="js/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/init.js"></script>
+</head>
+<body>
+    <!-- Add your own html content here, and keep JS content in JS files -->
+    <div class="row">
+        <div class="col-4 div-border">
+            <h4>Please select a book</h4>
+            <hr />
+            <ul class="ul-tiles" id="ulBookTiles">
+            </ul>
+        </div>
+        <div class="col-4 div-border">
+            <strong>Most common words used in the book: "<a id="h4CommonWords"></a>"</strong>
+            <hr />
+            <div id="divCommonWordsCount" class="divTable"></div>
+        </div>
+        <div class="col-4">
+            <strong>Get count by keyword</strong>
+            <hr />
+            <div>
+                <label>Enter Word: </label>&nbsp;<input class="input-group-sm" id="txtWordSearch" type="text" />&nbsp;<input type="button" value="Search" class="btn btn-primary" id="btnSearch" />
+                <hr />
+                <div id="divWordSearchCount" class="divTable"></div>
+            </div>
+        </div>
+    </div>
+    <div class="div-loader hide"><strong>Please wait...</strong></div>
+</body>
+</html>

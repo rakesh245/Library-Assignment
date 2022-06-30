@@ -1,0 +1,17 @@
+[
+  {
+    "BookId": 1,
+    "BookTitle": "The Hound Of The Baskervilles",
+    "BookAuthor": "Arthur Conan Doyle"
+  },
+  {
+    "BookId": 3,
+    "BookTitle": "A Tale Of Two Cities",
+    "BookAuthor": "Charles Dickens"
+  },
+  {
+    "BookId": 2,
+    "BookTitle": "Moby Dick",
+    "BookAuthor": "Herman Melville"
+  }
+]
